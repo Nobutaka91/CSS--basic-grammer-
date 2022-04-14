@@ -1,20 +1,30 @@
 .box1 {
     background-color: orange;
-    width: 200px;
-    height: 200px;
-    margin:0 0 20px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+        z-index: 3;
+
 }
 
 .box2 {
     background-color: skyblue;
-    width: 50%;
-    height: 50%;
-    border-radius: 10px;
-    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
 }
 
 .box3 {
     background-color: tomato;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
 }
