@@ -1,8 +1,18 @@
-ul {
-    /* list-style-type: circle; */
-    list-style-image: url(../img/../img/icon.png);
+.box1 {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
 }
 
-ol {
-    list-style-type: none;
+.box2 {
+    background-color: skyblue;
+        width: 50%;
+        height: 50%;
+        /* border: 2px solid blue; */
+        border: 2px solid blue;
+        border-radius: 10px;
+}
+
+.box3 {
+    background-color: tomato;
 }
