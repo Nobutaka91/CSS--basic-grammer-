@@ -1,17 +1,8 @@
-
-h1 {
-    color: red;
-    font-size: 48px;
-    text-align: center;
-    font-weight: normal;
-    text-decoration: line-through;
-}
-
 p {
-    font-weight: bold;
-    text-decoration: underline;
+    line-height: 5;
+    background-color: pink;
 }
 
-a {
-    text-decoration: none;
+img {
+    vertical-align: bottom;
 }
