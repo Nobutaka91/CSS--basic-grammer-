@@ -1,32 +1,25 @@
-/* pの3番目のスタイル変更 */
-/* main > :nth-child(3) {
-    background: pink;
+/* 3番目のh2にスタイルがつく */
+/* main > h2:nth-of-type(3) {
+    background: red;
 } */
 
-/* pの3n番目のスタイル変更 */
-/* main > :nth-child(3n) {
-    background: pink;
+/* 偶数番目のh2にスタイルがつく */
+/* main > h2:nth-of-type(even) {
+    background: red;
 } */
 
-/* pの奇数番目のスタイル変更  */
-main > :nth-child(odd) {
-    background: pink;
-}
+/* 奇数番目のh2にスタイルがつく */
+/* main > h2:nth-of-type(odd) {
+    background: red;
+} */
 
-/* pの偶数番目のスタイル変更 */
-main > :nth-child(even) {
-    background: skyblue;
-}
 
-/* 最初のpのスタイルを変更 */
-main > :first-child {
+/* 最初のh2にスタイルがつく */
+main > h2:first-of-type {
     background: red;
 }
 
-/* 最後のpのスタイルを変更 */
-main > :last-child {
-    background: green;
+/* 最後のh2にスタイルがつく */
+main > h2:last-of-type {
+    background: rgb(0, 140, 255);
 }
-
-
-
