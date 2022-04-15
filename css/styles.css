@@ -1,25 +1,11 @@
-
-/* 属性セレクターには[]を使う */
-[target] {
-    font-weight: bold;
+h1::before,
+h2::before {
+    content: '-';
 }
 
-/* 値まで使用したい場合は＝を使う */
-/* [href="#top"] {
-    font-weight: bold;
-} */
 
-/* 前方一致には^=を使う */
-/* [href^="http"] {
-    font-weight: bold;
-} */
-
-/* 前方一致には^=を使う */
-/* [href$="dotinstall"] {
-    font-weight: bold;
-} */
-
-/* 部分一致には^=を使う */
-/* [href*="com"] {
-    font-weight: bold;
-} */
+h1::after,
+h2::after {
+    content: '-';
+    content: attr(data-subtitle);
+}
