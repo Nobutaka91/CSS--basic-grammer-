@@ -1,11 +1,32 @@
-.btn {
-    width: 100px;
-    background: skyblue;
-    text-align: center;padding: 4px;
-    color: white;
-    cursor: pointer;
+/* pの3番目のスタイル変更 */
+/* main > :nth-child(3) {
+    background: pink;
+} */
+
+/* pの3n番目のスタイル変更 */
+/* main > :nth-child(3n) {
+    background: pink;
+} */
+
+/* pの奇数番目のスタイル変更  */
+main > :nth-child(odd) {
+    background: pink;
 }
 
-.btn:hover {
-    opacity: 0.8;
+/* pの偶数番目のスタイル変更 */
+main > :nth-child(even) {
+    background: skyblue;
 }
+
+/* 最初のpのスタイルを変更 */
+main > :first-child {
+    background: red;
+}
+
+/* 最後のpのスタイルを変更 */
+main > :last-child {
+    background: green;
+}
+
+
+
