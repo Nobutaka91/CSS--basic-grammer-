@@ -1,16 +1,9 @@
-header {
-    height: 80px;
-    /* background-color: pink;
-    background-image: url(../img/header.png);
-    background-size: cover;
-    background-position: center; */
-    background: center/cover pink url(../img/header.png);
-}
+/* :emptyで空の要素を選択することが出来る */
+/* li:empty {
+    background-color: skyblue;
+} */
 
-img {
-    float: right;
-}
-
-h2 {
-    clear: right;
+/* :notは否定を意味する擬似クラス */
+li:not(:empty) {
+    background-color: skyblue;
 }
