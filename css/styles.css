@@ -1,9 +1,25 @@
-/* :emptyで空の要素を選択することが出来る */
-/* li:empty {
-    background-color: skyblue;
-} */
+body {
+    margin: 0;
+}
 
-/* :notは否定を意味する擬似クラス */
-li:not(:empty) {
-    background-color: skyblue;
+header {
+    background: pink;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    background: skyblue;
+    flex: 1;
+}
+
+aside {
+    background: orange;
+    width: 100px;
+}
+
+footer {
+    background: red;
 }
