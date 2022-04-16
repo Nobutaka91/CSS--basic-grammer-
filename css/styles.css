@@ -1,41 +1,18 @@
-html {
-    height: 100%;
-}
-
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
 }
 
 header {
-    background: pink;
-    margin-bottom: 100px;
-}
-
-.container {
+    height: 200px;
+    background: silver;
     display: flex;
-    flex: 1;
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
 }
 
-main {
+div {
+    width: 100px;
+    height: 40px;
     background: skyblue;
-    flex: 1;
-}
-
-nav {
-    background: green;
-    width: 100px;
-    order: -1;
-}
-
-aside {
-    background: orange;
-    width: 100px;
-}
-
-footer {
-    background: red;
 }
