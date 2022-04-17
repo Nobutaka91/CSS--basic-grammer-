@@ -1,35 +1,19 @@
-header {
+section {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
-nav {
-    margin-left: auto;
+section:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.pic {
+    width:180px;
+    /* margin-right: 32px; */
+    margin-bottom: 60px;
 }
 
-nav a {
-    /* background: tomato; */
-    width: 100px;
-    text-align: center;
-    line-height: 64px;
-    display: block;
+.desc {
+    /* flex: 1; */
+    width: calc(100% - 180px - 32px);
 }
-
-nav a:hover {
-    background: #eee;
-}
-
-
-    /* list-style: none;で先頭の黒丸を消す */
-
-    /* 画像とメニューをflexboxを使って横並びにするためにまず親要素であるheder要素に対してdisplay: flexを指定する; */
-/* そのうえで画像は左側に、 nav は右側にしたいので nav に対して margin-left: auto; とする。 */
-
-/* ulに対してflex: box;を指定し、横並びにする */
