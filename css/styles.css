@@ -1,9 +1,19 @@
-/* :emptyで空の要素を選択することが出来る */
-/* li:empty {
-    background-color: skyblue;
-} */
+section {
+    display: flex;
+    justify-content: space-between;
+}
 
-/* :notは否定を意味する擬似クラス */
-li:not(:empty) {
-    background-color: skyblue;
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.pic {
+    width:180px;
+    /* margin-right: 32px; */
+    margin-bottom: 60px;
+}
+
+.desc {
+    /* flex: 1; */
+    width: calc(100% - 180px - 32px);
 }
