@@ -1,18 +1,35 @@
-body {
-    margin: 0;
-}
-
 header {
-    height: 200px;
-    background: silver;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    /* justify-content: space-between; */
 }
 
-div {
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    /* background: tomato; */
     width: 100px;
-    height: 40px;
-    background: skyblue;
+    text-align: center;
+    line-height: 64px;
+    display: block;
 }
+
+nav a:hover {
+    background: #eee;
+}
+
+
+    /* list-style: none;で先頭の黒丸を消す */
+
+    /* 画像とメニューをflexboxを使って横並びにするためにまず親要素であるheder要素に対してdisplay: flexを指定する; */
+/* そのうえで画像は左側に、 nav は右側にしたいので nav に対して margin-left: auto; とする。 */
+
+/* ulに対してflex: box;を指定し、横並びにする */
